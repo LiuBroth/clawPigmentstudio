@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>鬼灭之刃·刀战原型</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <div class="bar-wrap"><span>玩家 HP</span><div class="bar"><div id="playerHp" class="fill player"></div></div></div>
+      <div class="bar-wrap"><span>鬼 HP</span><div class="bar"><div id="enemyHp" class="fill enemy"></div></div></div>
+      <div id="tips">WASD移动 · J轻斩 · K重斩 · L格挡/弹反 · Shift冲刺</div>
+      <div id="log"></div>
+    </div>
+    <canvas id="game"></canvas>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
